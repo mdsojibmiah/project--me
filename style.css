@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:#e5e5fd;
+    border: 10px solid #1d1e4c;
+    min-height: 100vh;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top-content{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.image-content{
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.image-content img{
+    width: 300px;
+    height: 320px;    
+}
+.top-content h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1d1e4c;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.top-content h4{
+    font-size: 30px;
+    text-align: end;
+    font-family: monospace;
+}
+.about-section {
+    margin-top: 50px;
+}
+.about-section h2{
+    font-size: 70px;
+    font-weight: 400;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+.about-section p{
+    text-align: justify;
+    font-family: monospace;
+    font-size: 20px;
+    line-height: 30px;   
+}
+.Programming-section{
+    margin: 50px 0;
+}
+hr{
+    margin: 10px 10px 10px 0;
+}
+
+.Programming-section h3{
+    font-size: 30px;
+    font-family: monospace;
+}
+.Programming-section ul{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.Programming-section ul li{
+    margin-bottom: 15px;
+    font-family: monospace;
+    font-size: 25px; 
+}
+
+footer{
+    margin: 50px 0; 
+}
+footer p{
+    text-align: center;
+    font-family:monospace ;
+}
+
+@media only screen and (max-width: 600px){
+    .content{
+        max-width:100%;
+    }
+    .top-content{
+        display:block;
+        margin-top:50px;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .image-content{
+        border-radius:50%;
+        margin:0 90px ;
+    }
+    
+    .image-content img{
+        width: 300px;
+        height: 320px;   
+    }
+    .top-content h1{
+        font-size: 30px;
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+    .top-content h4{
+        font-size: 25px;
+        margin-right: 5px;     
+    }
+    .about-section h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .about-section p{
+        margin: 0 10px;
+        text-align: justify;      
+    }
+    .Programming-section h3{
+        text-align: center;
+        font-size: 25px;
+    }
+    hr{
+        margin: 10px 30px;
+    }
+}
